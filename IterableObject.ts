@@ -27,11 +27,4 @@ class IterableObject {
 		return new Map(this.entries);
 	}
 }
-let data = {
-	foo: "bar",
-	baz: "qux"
-};
 
-let obj = new IterableObject(data);
-let test = obj.toMap();
-console.log(obj.map(([key, value]) => value));
