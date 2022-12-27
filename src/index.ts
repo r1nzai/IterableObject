@@ -1,1 +1,2 @@
-export { default as IterableObject } from "./IterableObject";
+import IterableObject from "./IterableObject";
+export default IterableObject;
