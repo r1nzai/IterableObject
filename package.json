@@ -1,6 +1,6 @@
 {
 	"name": "@rinzai/iterableobject",
-	"version": "0.0.4",
+	"version": "1.0.0",
 	"description": "a wrapper class for convenience",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
