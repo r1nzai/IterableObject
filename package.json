@@ -2,7 +2,8 @@
 	"name": "@rinzai/iterableobject",
 	"version": "0.0.3",
 	"description": "a wrapper class for convenience",
-	"main": "index.js",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"files": [
 		"dist/**/*"
 	],
