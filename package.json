@@ -2,11 +2,9 @@
 	"name": "@rinzai/iterableobject",
 	"version": "0.0.2",
 	"description": "a wrapper class for convenience",
-	"main": "dist/index.js",
-	"types": "./src/index.d.ts",
+	"main": "index.js",
 	"files": [
-		"dist/**/*",
-		"index.js"
+		"dist/**/*"
 	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
