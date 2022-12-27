@@ -1,0 +1,28 @@
+{
+	"name": "@rinzai/iterableobject",
+	"version": "0.0.1",
+	"description": "a wrapper class for convenience",
+	"main": "dist/index.js",
+	"types": "./src/index.d.ts",
+	"files": [
+		"dist/**/*",
+		"index.js"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/r1nzai/IterableObject.git"
+	},
+	"author": "r1nzai",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/r1nzai/IterableObject/issues"
+	},
+	"homepage": "https://github.com/r1nzai/IterableObject#readme",
+	"devDependencies": {
+		"typescript": "^4.9.4"
+	}
+}
