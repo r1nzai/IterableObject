@@ -1,15 +1,17 @@
-class IterableObject {
-	constructor(private obj: Object) {
-		this.obj = obj;
+class IterableObject<TObject extends object> {
+	constructor(private object: TObject) {
 	}
 	get keys() {
-		return Object.keys(this.obj);
+		return Object.keys(this.object);
 	}
 	get values() {
-		return Object.values(this.obj);
+		return Object.values(this.object);
 	}
 	get entries() {
-		return Object.entries(this.obj);
+		return Object.entries(this.object);
+	}
+	fromEntries<T extends Iterable<[string, any]>>(entries: T) {
+		return this.constructor(Object.fromEntries(entries));
 	}
 	get length() {
 		return this.keys.length;
